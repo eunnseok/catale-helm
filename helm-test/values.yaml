@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: ko2sist/catale-fe:0.17.0
+  repository: ko2sist/catale-fe
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "0.17.0"
