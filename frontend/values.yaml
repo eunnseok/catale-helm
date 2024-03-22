@@ -53,10 +53,15 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
+    - host: silvstone.xyz
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
   tls: 
     - secretName: fe-ingress-tls
       hosts:
       - www.silvstone.xyz
+      - silvstone.xyz
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
